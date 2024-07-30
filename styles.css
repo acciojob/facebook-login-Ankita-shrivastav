@@ -5,8 +5,14 @@ body{
 	justify-content:center;
 	align-items:center;
 	height:100vh;
+	margin:0;
 }
-.sec-left{
+.container{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.left{
 	width:450px;
 	margin-top:70px;
 	display:inline-block;
@@ -30,11 +36,20 @@ button{
 	background-color:#1877f2;
 	border-radius:5px;
 	padding:10px 20px;
+	border:none;
+	width:100%;
+	color:white;
+	cursor:pointer;
 }
-.sec-left>img{
+a{
 	text-decoration:none;
 	color:#1877f2;
 }
 .signup{
-	background-color:42b72a;
+	background-color:#42b72a;
+	border:none;
+	border-radius:5px;
+	padding:10px 20px;
+	color:white;
+	cursor:pointer;
 }
