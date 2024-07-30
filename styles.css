@@ -31,7 +31,7 @@ button{
 	border-radius:5px;
 	padding:10px 20px;
 }
-img{
+.sec-left>img{
 	text-decoration:none;
 	color:#1877f2;
 }
